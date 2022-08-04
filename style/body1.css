@@ -1,179 +1,43 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style/style.css">
- 
-    <link rel="stylesheet" type="text/css" href="reset.css">
+.cards1{
     
-    <title>Document</title>
-</head>
-<body>
-<header class="cabeçalho">
-<div class="cabeçalho__flex">
-    <div class="logo">
-        <img class="logo-img" src="img/logo-campos&barbosa.webp">
-    </div>
-    
-    <div class="first-informations">
-        <div class="number">
-            
-            <p style="text-align:center ;"><img class="icon" src="img/whatsapp-red.png">(85) 99738-2777</p>
-            <p><img class="icon" src="img/mail-red.png">italo_s_barbosa@hotmail.com</p>
-        </div>
-    </div>
-    
-    <div class="outdoor">    
-        <h1 class="outdoor__banner">PRECISANDO DE UM ADVOGADO ESPECIALISTA EM <span style="color: Crimson; text-decoration: underline; font-size: 28px;">DIREITO CRIMINAL?</span></h1>
-        <p class="outdoor__banner-p">Garanta o melhor atendimento personalizado e humanizado. <strong>Clique no botão abaixo! </strong></p>
-    </div>
-    
-    <div class="wpp-1">
-        <img class="icon" src="img/wpp-red.png">
-        <h2>AJUDA ESPECIALIZADA</h2>
-    </div>
+    font-size: 12px;
+    background-image: linear-gradient(345deg,rgb(241, 240, 240), rgb(255, 255, 255));
+    position: relative;
+    width: 110%;
+    border-radius: 10px;
+    color: #11182a;
+    border: 1px solid gray;
+    margin-bottom: 10vh;
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.42);
+}
+#cards11{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
 
-        <div class="estrelas">
-            <img class="icon" src="img/star.png">
-            <p class="estrelas-p">Escritório 5 estrelas nas avaliações do GOOGLE.</p>
-        </div>
- 
-    </div>
-</header>
-<section class="quadro-quadro">
-    <div class="quadro-quadro__corpo">
-        <div class="titulo">
-        <img class="icon-body" src="img/checked.png">
-        <p class="titulo-capacidades">DISPONIBILIDADE IMEDIATA</p>
-        </div>
-        <p class="titulo-texto"><span style="font-weight:500;"> Atendimento 24h.</span> Agilidade e conforto que você precisa em um só lugar</p>
-    </div>
-    <div class="quadro-quadro__corpo">
-        <div class="titulo">
-        <img class="icon-body" src="img/advogado.png">
-        <p class="titulo-capacidades">ADVOGADOS EXPERIENTES</p>
-        </div>
-        <p class="titulo-texto">Confiança de ter sua ação em mãos seguras e capacitadas</p>
-    </div>
-    <div class="quadro-quadro__corpo">
-        <div class="titulo">
-        <img class="icon-body" src="img/quality.png">
-        <p class="titulo-capacidades">ADVOCACIA DE REFERÊNCIA</p>
-        </div>
-        <p class="titulo-texto">Garantia de poder contar com um advogado exemplar do mercado jurídico</p>
-    </div>
-</section>
-<section class="informativo">
-    <h2> Confira oque <span style="font-weight:700;">FAZEMOS DE MELHOR</span> por você</h2>
-  
-<div class="cards1">
-    <H2 id="cards11">ATUAÇÃO EM DELEGACIA DE POLÍCIA 24 HORAS</H2>
-    <ul class="cadrs-list">
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg"> Prisão em Flagrante e Audiência de Custódia.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Apoio para Vítimas.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Acompanhamento em Depoimento e Interrogatório.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Trancamento de Investigações.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Atuação Ativa em Investigações e na Produção de Provas.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Medida Protetiva da Lei Maria da Penha.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-            Restituição de Bens Apreendidos.
-        </li>
-    </ul>
-    <div class="circle">
-    </div>
-    <img id="cadeado" width="40px" src="img/lock-azul.svg">
-</div>
-<div class="cards1">
-    <H2 id="cards11">PROCESSO CRIMINAIS</H2>
-    <ul class="cadrs-list">
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg"> Defesa em Processos Criminais
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Realização de Audiências.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Atuação em Favor de Vítimas.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Pedidos de Liberdade.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Revogação de Medidas Cautelares
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Recursos Criminais.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Atuação em Tribunais Estaduais, Federais, STJ e STF.
-        </li>
-    </ul>
-    <div class="circle">
-    </div>
-    <img id="cadeado" width="40px" src="img/justice.svg">
-</div>
-<div class="cards1">
-    <H2 id="cards11">EXECUÇÃO PENAL</H2>
-    <ul class="cadrs-list">
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">Progressão de Regime de Cumprimento de Pena.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Livramento Condicional.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Defesa em Falta Disciplinar.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Pedido de Transferência.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Remição de Pena.
-        </li>
-        <li id="cards12">
-             <img width="20px" src="img/ok.svg">
-             Atendimento em Presídios.
-        </li>
-    </ul>
-    <div class="circle">
-    </div>
-    <img id="cadeado" width="40px" src="img/lawyer.svg">
-</div>
-
-</section>
-
-</body>
-</html>
+#cards12{
+    display: flex;
+    vertical-align: middle;
+    line-height: 15px;
+    margin: 5px 25px;
+    
+}
+#cards12 img{
+    margin-right: 15px;
+}
+.circle{
+    background-color: rgb(254, 254, 254);
+    height: 60px;
+    width: 60px;
+    top: -27px;
+    right: 267px;
+    border-radius: 100px;
+    position: absolute;
+    border: 1px solid gray;
+}
+#cadeado{
+    position: absolute;
+    top:-20px;
+    right: 279px;
+}
