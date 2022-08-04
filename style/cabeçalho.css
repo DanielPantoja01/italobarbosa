@@ -14,7 +14,7 @@ background-position-x:-50px ;
 border-radius: 0 0 65px 65px;
 display: flex;
 flex-direction: column;
-height: 80vh;
+height: 100vh;
 justify-content: space-between;
 align-items: center;
 }
