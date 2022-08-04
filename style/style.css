@@ -1,0 +1,12 @@
+@import url("cabeçalho.css");
+@import url("body1.css");
+
+body{
+    background-color: GhostWhite;
+   
+}
+.icon{
+    display: block;
+    width: 15px;
+    margin-right: 5px;
+}
