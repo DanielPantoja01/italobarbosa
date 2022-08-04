@@ -1,8 +1,9 @@
 @import url("cabeçalho.css");
 @import url("body1.css");
+@import url("body2.css");
 
 body{
-    background-color: GhostWhite;
+    background-color: #f2f2f2;
    
 }
 .icon{
