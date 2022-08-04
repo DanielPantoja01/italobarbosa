@@ -1,0 +1,57 @@
+.quadro-quadro{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: -22px 5%; 
+    border-radius: 10px;
+    font-family: 'Poppins';
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.42);
+}
+.quadro-quadro__corpo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: .5px solid Gainsboro;
+  
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icon-body{
+    display: block;
+    width: 5%;
+    
+    
+}
+.titulo-capacidades{
+    font-weight: 700;
+    width: 80%;
+
+
+}
+.titulo-texto {
+text-align: center;
+margin-top: 1em;
+color: gray;
+}
+.informativo{
+    
+    font-size: 26px;
+    margin: 80px 5%;
+    
+    font-family: "Poppins";
+    width: 80%;
+    line-height: 1.4em;
+}
+.informativo h2{
+    
+    text-align: center;
+    color: #11182a;
+    margin: 30px auto;
+}
+
+
